@@ -346,7 +346,7 @@ section {
 
 .categories .box-container {
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(26rem, 1fr));
+    grid-template-columns: repeat(auto-fit, minmax(30rem, 1fr));
     gap: 1.5rem;
 }
 
@@ -490,6 +490,10 @@ section {
 
     .heading {
         font-size: 2.5rem;
+    }
+
+    ..footer {
+        text-align: center;
     }
 
     
@@ -682,7 +686,7 @@ section {
 
 .blogs .box-container {
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(26rem, 1fr));
+    grid-template-columns: repeat(auto-fit, minmax(30rem, 1fr));
     gap: 1.5rem;
     
 }
@@ -756,4 +760,121 @@ section {
     color: var(--light-color);
     font-size: 1.2rem;
     padding: .5rem 0;
+}
+
+.footer {
+    background:#fff;
+    padding-top: 5rem;
+    margin-top: 3rem;
+}
+
+.footer .box-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(25rem, 1fr));
+    gap: 1.5rem;
+    
+}
+
+.footer .box-container .box {
+    align-items: start;
+}
+
+
+
+
+.footer .box-container .box h3 {
+    color: var(--black);
+    font-size: 2.5rem;
+    padding: .5rem 0;
+}
+
+.footer .box-container .box h3 i {
+    color: var(--vino);
+}
+
+.footer .box-container .box a {
+   display: block;
+   color: var(--light-color);
+   padding-right: .5rem;
+   font-size: 1.5rem;
+
+}
+
+.footer .box-container .box .links i {
+    color: var(--vino);
+    padding: .5rem 0;
+}
+
+.footer .box-container .box .links:hover i{
+    padding-right: 2rem;
+    
+ }
+
+.footer .box-container .box p {
+    line-height: 1.8;
+    color: var(--light-color);
+    font-size: 1.5rem;
+    padding: .5rem 0;
+}
+
+
+.footer .box-container .box .share a {
+    height: 4rem;
+    width: 4rem;
+    line-height: 4rem;
+    border-radius: .5rem;
+    font-size: 2rem;
+    color: var(--black);
+    margin-left: .2rem;
+    background: #eee;
+    text-align: center;
+
+}
+
+.footer .box-container .box .share a:hover {
+    background: var(--vino);
+    color: #fff;
+}
+
+.footer .box-container .box .share {
+    display: flex;
+    justify-content: start;
+    gap: 10px;
+}
+
+.footer .box-container .box .email {
+    width: 100%;
+    margin: .7rem 0;
+    padding: 1rem;
+    border-radius: .5rem;
+    background: #eee;
+    font-size: 1.6rem;
+    color: var(--black);
+    text-transform: none;
+
+}
+
+.footer .box-container .box .payment-img {
+    
+    height: 12rem;
+    margin: auto;
+   
+}
+
+.footer .box-container .box .btn {
+    width: 100%;
+}
+
+.footer .creditos {
+    text-align: center;
+    color: var(--black);
+    margin-top: 2rem;
+    padding: 1rem;
+    padding-top: 2.5rem;
+    font-size: 2rem;
+    border-top: var(--border);
+}
+
+.footer .creditos span {
+    color: var(--vino);
 }
